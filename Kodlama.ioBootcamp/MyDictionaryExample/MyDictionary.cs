@@ -22,23 +22,30 @@ namespace MyDictionaryExample
         //Add Method for MyDictionary Class
         public void Add(K item1,V item2)
         {
-            //I Created the temporary arrays.
-            K[] temporary = key;
-            V[] temporary2 = value;
+                
+            if(!IsKeyExist(item1))
+            {  
+                //I Created the temporary arrays.
+                K[] temporary = key;
+                V[] temporary2 = value;
 
-            //I increased the length of the property arrays.
-            key = new K[key.Length + 1];
-            value = new V[key.Length + 1];
+                //I increased the length of the property arrays.
+                key = new K[key.Length + 1];
+                value = new V[key.Length + 1];
 
-            //I have put the elements from the temporary array into the extended array.
-            for (int i = 0; i < temporary.Length; i++)
-            {
-                key[i] = temporary[i];
-                value[i] = temporary2[i];
+                //I have put the elements from the temporary array into the extended array.
+                for (int i = 0; i < temporary.Length; i++)
+                {
+                    key[i] = temporary[i];
+                    value[i] = temporary2[i];
+                }
+                // I have put the new parameters in extended arrays.
+                key[key.Length - 1] = item1;
+                value[key.Length - 1] = item2;
+
             }
-            // I have put the new parameters in extended arrays.
-            key[key.Length - 1] = item1;
-            value[key.Length - 1] = item2;
+            
+           
         }
 
         //Writing Method for key and value objects in MyDictionary Class
@@ -50,5 +57,18 @@ namespace MyDictionaryExample
             }
         }
 
+        //IsKeyExist Method
+        private bool IsKeyExist(K prm)
+        {
+            
+            for (int i = 0; i < key.Length; i++)
+            {
+                if (key[i].ToString() == prm.ToString())
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

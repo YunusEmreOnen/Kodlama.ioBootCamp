@@ -10,9 +10,14 @@
             // I used to Method Add
             dictionary.Add('A', true);
             dictionary.Add('B', false);
+            dictionary.Add('B', false);
+            dictionary.Add('B', false);
+            dictionary.Add('C', true);
             dictionary.Add('C', true);
             dictionary.Add('D', true);
-            
+            dictionary.Add('D', true);
+
+
             //I used to Write Method in the MyDictionary Class
             dictionary.Write();
             Console.WriteLine(dictionary);
