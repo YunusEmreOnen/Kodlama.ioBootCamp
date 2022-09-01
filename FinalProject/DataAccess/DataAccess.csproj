@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Concrete\EntityFramework\**" />
-    <EmbeddedResource Remove="Concrete\EntityFramework\**" />
-    <None Remove="Concrete\EntityFramework\**" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
   </ItemGroup>
 
   <ItemGroup>
