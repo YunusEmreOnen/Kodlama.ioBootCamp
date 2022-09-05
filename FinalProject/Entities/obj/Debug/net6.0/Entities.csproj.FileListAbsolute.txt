@@ -10,3 +10,6 @@ E:\C# and Angular Course\FinalProject\Entities\obj\Debug\net6.0\Entities.dll
 E:\C# and Angular Course\FinalProject\Entities\obj\Debug\net6.0\refint\Entities.dll
 E:\C# and Angular Course\FinalProject\Entities\obj\Debug\net6.0\Entities.pdb
 E:\C# and Angular Course\FinalProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+E:\C# and Angular Course\FinalProject\Entities\bin\Debug\net6.0\Core.dll
+E:\C# and Angular Course\FinalProject\Entities\bin\Debug\net6.0\Core.pdb
+E:\C# and Angular Course\FinalProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
