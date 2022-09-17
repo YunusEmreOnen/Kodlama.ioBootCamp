@@ -65,3 +65,8 @@ D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Business.pdb
 D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Core.pdb
 D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\DataAccess.pdb
 D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Entities.pdb
+D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Autofac.dll
+D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\Castle.Core.dll
+D:\C# and Angular Course\FinalProject\WebAPI\bin\Debug\net6.0\FluentValidation.dll

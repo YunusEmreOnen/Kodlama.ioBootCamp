@@ -126,3 +126,8 @@ D:\C# and Angular Course\FinalProject\ConsoleUI\obj\Debug\net6.0\refint\ConsoleU
 D:\C# and Angular Course\FinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 D:\C# and Angular Course\FinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 D:\C# and Angular Course\FinalProject\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Autofac.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Castle.Core.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\FluentValidation.dll
