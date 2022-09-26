@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lcEQfR+dcFdBZ8LwYzTq44PmD2R86HhcRTqJrVc+VXfUxJRdHzaxKih4effygyJGtgBjLfRfMzK1EjN7D/oMVw==",
+  "dgSpecHash": "a/ioEv8ekf8CrxXmlh1CTWjubzhzA2CjLMFyFVoDylx8Udq0akfEDD+suh/TThYorpf5a8+9mpwYRbeOsgX/3w==",
   "success": true,
   "projectFilePath": "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
