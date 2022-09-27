@@ -134,3 +134,7 @@ D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\FluentValidatio
 D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
 D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\C# and Angular Course\FinalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll

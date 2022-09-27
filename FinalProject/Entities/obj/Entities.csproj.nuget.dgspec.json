@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj": {}
+    "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj": {
+    "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
-        "outputPath": "D:\\C# and Angular Course\\FinalProject\\Core\\obj\\",
+        "outputPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,14 +90,14 @@
         }
       }
     },
-    "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj": {
+    "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
-        "outputPath": "D:\\C# and Angular Course\\FinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,8 +119,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj"
+              "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj"
               }
             }
           }

@@ -7696,11 +7696,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# and Angular Course\\FinalProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\C#\\C# and Angular Course\\FinalProject\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\C# and Angular Course\\FinalProject\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
-      "outputPath": "D:\\C# and Angular Course\\FinalProject\\WebAPI\\obj\\",
+      "outputPath": "C:\\C#\\C# and Angular Course\\FinalProject\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7722,17 +7722,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C# and Angular Course\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "D:\\C# and Angular Course\\FinalProject\\Business\\Business.csproj"
+            "C:\\C#\\C# and Angular Course\\FinalProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Business\\Business.csproj"
             },
-            "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj": {
-              "projectPath": "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj"
+            "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj"
             },
-            "D:\\C# and Angular Course\\FinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\C# and Angular Course\\FinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\C#\\C# and Angular Course\\FinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\C#\\C# and Angular Course\\FinalProject\\Entities\\Entities.csproj"
             }
           }
         }

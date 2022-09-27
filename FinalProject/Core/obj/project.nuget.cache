@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q7C1z28iLFZFacksbTHxixgdQ6OkStxk+ryuVvU4QZgjMVfCt7VP+nysOPvMjBLTHSWXxvRwCCX9292I1Xdl4A==",
+  "dgSpecHash": "XTUEdUxskSie7t2dQVMfECvNub82iG7POGwhrp25Z+V+hO8uTwMETnOf+vnuGAwPv0k3DiO7N2c9/gCi6ty/3A==",
   "success": true,
-  "projectFilePath": "D:\\C# and Angular Course\\FinalProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\C#\\C# and Angular Course\\FinalProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

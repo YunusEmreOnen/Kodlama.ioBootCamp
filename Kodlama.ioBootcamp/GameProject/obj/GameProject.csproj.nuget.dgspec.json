@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj": {}
+    "C:\\C#\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj": {}
   },
   "projects": {
-    "D:\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj": {
+    "C:\\C#\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj",
+        "projectUniqueName": "C:\\C#\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj",
         "projectName": "GameProject",
-        "projectPath": "D:\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj",
+        "projectPath": "C:\\C#\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\GameProject.csproj",
         "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
-        "outputPath": "D:\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\obj\\",
+        "outputPath": "C:\\C#\\C# and Angular Course\\Kodlama.ioBootcamp\\GameProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
