@@ -2,6 +2,9 @@
 using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
@@ -30,9 +33,9 @@ namespace Business.Concrete
 
         [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
-            //Bir kategoride en fazla 10 ürün olabilir.
 
             IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
                  CheckIfProductCountOfCategoryCorrect(product.CategoryId),CheckIfCategoryLimitExceeded());
@@ -49,10 +52,12 @@ namespace Business.Concrete
 
         }
 
+        [CacheAspect]
+        [PerformanceAspect(5)]
         public IDataResult<List<Product>> GetAll()
         {
             //Business Codes
-            if (DateTime.Now.Hour == 22)
+            if (DateTime.Now.Hour == 23)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
@@ -64,6 +69,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(x => x.CategoryId == id));
         }
 
+        [CacheAspect]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(x => x.ProductId == productId));
@@ -80,6 +86,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Update(Product product)
         {
             var result = GetAllByCategoryId(product.CategoryId).Data.Count;
@@ -88,7 +95,7 @@ namespace Business.Concrete
 
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
-            throw new NotImplementedException();
+            throw new NotImplementedException(Messages.ProductUpdated);
         }
 
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
@@ -122,6 +129,16 @@ namespace Business.Concrete
                 return new ErrorResult(Messages.CategoryLimitExceeded);
             }
             return new SuccessResult();
+        }
+
+        [TransactionScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+            _productDal.Add(product);
+            product.ProductId=product.ProductId+1;
+            _productDal.Update(product);
+            
+            return new SuccessResult(Messages.ProductUpdated);
         }
     }
 }
